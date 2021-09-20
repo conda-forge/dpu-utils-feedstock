@@ -28,7 +28,7 @@ requirements:
     - msal
     - msrest
     - oauthlib
-    - portalocker
+    - portalocker ~=1.0
     - pycparser
     - cryptography
     - cffi
