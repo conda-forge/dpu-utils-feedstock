@@ -1,5 +1,5 @@
 {% set name = "dpu-utils" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dpu_utils-{{ version }}.tar.gz
-  sha256: a3a58f1a00a17bbf0e3e0154b751458dad63d1be34b82832d03232bd93764f08
+  sha256: 31b1a4e82f3f0b5c6df00f2968667e8846f1bac74d0947cfd3afdb5bcd0ab73c
 
 build:
   number: 0
