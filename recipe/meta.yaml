@@ -11,7 +11,7 @@ source:
   sha256: 31b1a4e82f3f0b5c6df00f2968667e8846f1bac74d0947cfd3afdb5bcd0ab73c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,7 @@ requirements:
     - numpy
     - python >=3.6
     - regex
-    - sentencepiece ==0.1.92
+    - sentencepiece
     - setsimilaritysearch
     - tqdm
     - requests
